@@ -1,0 +1,145 @@
+#keuken {
+    width: 1512px;
+    height: 768px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/hout.jpeg");
+}
+
+body {
+    margin: 0;
+}
+#bodem {
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+}
+
+#champignon {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+
+#tomaat {
+    position: absolute;
+    bottom: 320px;
+    right: 10px;
+}
+
+#pepperoni {
+    position: absolute;
+    bottom: 50px;
+    right: 280px;
+}
+
+#mozerrella {
+    position: absolute;
+    bottom: 320px;
+    right: 280px;
+}
+
+#saus {
+    position: absolute;
+    left: 25px;
+    bottom: 60px;
+}
+
+#klaar {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: greenyellow;
+}
+
+#Hout {
+    position: absolute;
+    left: 120px;
+    width: 80px;
+    height: 30px;
+}
+#Marmer {
+    position: absolute;
+    left: 220px;
+    width: 80px;
+    height: 30px;
+}
+
+#achtergrond {
+    position: absolute;
+    height: 30px;
+    font-size: larger;
+    top: 10px;
+    left: 10px;
+}
+
+/* #tekst {
+    position: absolute;
+    font-size: larger;
+    top: 50px;
+} */
+
+/* #geld {
+    font-size: larger;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+} */
+/* #lijst {
+    position: absolute;
+    top: 70px;
+} */
+
+.hidden {
+    display: none;
+  }
+
+#tomatenKnop {
+    position: absolute;
+    bottom: 320px;
+    right: 100px;
+}
+
+#tomatenTopping {
+    position: absolute;
+    bottom: 150px;
+    left: 390px;
+}
+
+#mozerellaKnop {
+    position: absolute;
+    bottom: 320px;
+    right: 380px;
+}
+
+#mozerellaTopping {
+    position: absolute;
+    bottom: 130px;
+    left: 410px;
+}
+
+#champignonsKnop {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+#champignonsTopping {
+    position: absolute;
+    bottom: 130px;
+    left: 410px;
+}
+
+#pepperoniKnop {
+    position: absolute;
+    bottom: 50px;
+    right: 380px;
+}
+
+#pepperoniTopping {
+    position: absolute;
+    bottom: 130px;
+    left: 410px;
+}
