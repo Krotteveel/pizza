@@ -9,6 +9,7 @@
 body {
     margin: 0;
 }
+
 #bodem {
     position: absolute;
     bottom: 50px;
@@ -75,22 +76,6 @@ body {
     left: 10px;
 }
 
-/* #tekst {
-    position: absolute;
-    font-size: larger;
-    top: 50px;
-} */
-
-/* #geld {
-    font-size: larger;
-    position: absolute;
-    right: 100px;
-    top: 10px;
-} */
-/* #lijst {
-    position: absolute;
-    top: 70px;
-} */
 
 .hidden {
     display: none;
@@ -142,4 +127,28 @@ body {
     position: absolute;
     bottom: 130px;
     left: 410px;
+}
+
+#muziek {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#kies {
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+
+#klant {
+    position: absolute;
+    left: 20px;
+}
+
+.naam{
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    font-size: larger;
 }
